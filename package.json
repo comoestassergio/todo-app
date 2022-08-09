@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "An App To Keep All Your ToDos In",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comoestassergio/todo-app.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "Serge Chernyavski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comoestassergio/todo-app/issues"
+  },
+  "homepage": "https://github.com/comoestassergio/todo-app#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
