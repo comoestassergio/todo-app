@@ -177,4 +177,9 @@ nav {
 
     border-radius: .5rem;
 
+    cursor: pointer;
+}
+
+.popUp__btn:hover {
+    background-color: rgb(161, 161, 161);
 }
