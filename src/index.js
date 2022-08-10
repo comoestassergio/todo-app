@@ -2,6 +2,7 @@ import './style.css'
 import header from './components/header'
 import navEl from './components/nav'
 import addBtn from './components/addThingBtn'
+import grid from './components/toDoGrid'
 
 
 const indexPage = {
@@ -11,7 +12,9 @@ const indexPage = {
         this.addContent(
             header.render(), 
             navEl.render(),
-            addBtn.render()
+            addBtn.render(),
+            grid.render()
+
         )
     },
 
