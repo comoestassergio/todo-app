@@ -112,6 +112,11 @@ nav {
     border: none;
 }
 
+.content__popUp > input:focus-visible, 
+.content__popUp > textarea:focus-visible {
+    outline: none;
+}
+
 .popUp__desc {
     height: 30% !important;
     padding-top: 1rem !important;
