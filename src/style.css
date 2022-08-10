@@ -188,3 +188,34 @@ nav {
 .popUp__btn:hover {
     background-color: rgb(161, 161, 161);
 }
+
+.content__todo-grid {
+    height: 60vh;
+    width: 50vw;
+    margin-inline: auto;
+
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(75px, 1fr));
+    place-content: center;
+
+    gap: .5rem;
+}
+
+.todo-grid__item {
+    width: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #efefef;
+    border-radius: .5rem;
+
+    padding: 0 2rem;
+}
+
+.item__remove-btn {
+    border: none;
+
+    background-color: transparent;
+    cursor: pointer;
+}
